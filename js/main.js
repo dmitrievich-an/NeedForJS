@@ -5,7 +5,7 @@ const score = document.querySelector('.score'),
   gameArea = document.querySelector('.gameArea'),
   car = document.createElement('div');
 
-const music = new Audio('../sound/123.mp3');
+const music = new Audio('sound/123.mp3');
 
 car.classList.add('car')
 start.addEventListener('click', startGame);
